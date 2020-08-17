@@ -1,0 +1,113 @@
+.main-slider {
+  .swiper-container {
+    width: 100%;
+
+    .swiper-slide {
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-end;
+      height: 100vh;
+      max-height: 1140px;
+
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
+
+      .inner-content {
+        display: flex;
+        height: 100%;
+        flex-flow: column;
+        justify-content: space-between;
+        margin-top: 70px;
+        margin-bottom: 100px;
+
+        .tag-box {
+          display: flex;
+
+          .date,
+          .tag {
+            padding: 10px 17px;
+            position: relative;
+          }
+
+          .white-opacity-1 {
+            position: absolute;
+            background-color: white;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.6;
+            z-index: -1;
+          }
+
+          .white-opacity-2 {
+            position: absolute;
+            background-color: white;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.4;
+            z-index: -1;
+          }
+        }
+      }
+    }
+
+    .swiper-button-next {
+      right: 0;
+    }
+
+    .swiper-button-prev {
+      left: 0;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: flex;
+      width: 46px;
+      height: 93px;
+      box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.25);
+      transition: box-shadow 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+      outline: none;
+
+      &:hover {
+        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.45);
+        transition: box-shadow 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+      }
+
+      .inner-content {
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+
+        img {
+          position: absolute;
+          display: flex;
+          width: 100%;
+        }
+
+        .white-background {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          background-color: white;
+          opacity: 0.6;
+          z-index: -1;
+        }
+      }
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
