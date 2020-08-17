@@ -1,16 +1,20 @@
 /** Import Bootstrap functions */
 @import "~bootstrap/scss/functions";
 
+// THEME COLORS
 $theme-colors: (
   primary: #525ddc,
   red-1: #e00a16,
+  red-2: #ef525d,
+  red-3: #e63b41,
   grey-1: #333,
   grey-2: #1a1a1a,
+  grey-3: #848484,
 );
 
 $font-size-h1: 68px;
 $font-size-h2: 68px;
-$font-size-h3: 32px;
+$font-size-h3: 38px;
 $font-size-h4: 17px;
 
 $font-size-p0: 14px;

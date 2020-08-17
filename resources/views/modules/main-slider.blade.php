@@ -7,10 +7,10 @@
         <div class="inner-content container">
           <div class="tag-box">
             <div class="date">
-              <div class="white-opacity-1"></div><span>08.05.</span>
+              <div class="white-opacity-1"></div><p>08.05.</p>
             </div>
             <div class="tag">
-              <div class="white-opacity-2"></div><span>UEFA EUROPA LEAGUE</span>
+              <div class="white-opacity-2"></div><p>UEFA EUROPA LEAGUE</p>
             </div>
           </div>
           <div class="text-content">
@@ -27,10 +27,10 @@
         <div class="inner-content container">
           <div class="tag-box">
             <div class="date">
-              <div class="white-opacity-1"></div><span>08.05.</span>
+              <div class="white-opacity-1"></div><p>08.05.</p>
             </div>
             <div class="tag">
-              <div class="white-opacity-2"></div><span>UEFA EUROPA LEAGUE</span>
+              <div class="white-opacity-2"></div><p>UEFA EUROPA LEAGUE</p>
             </div>
           </div>
           <div class="text-content">
@@ -47,10 +47,10 @@
         <div class="inner-content container">
           <div class="tag-box">
             <div class="date">
-              <div class="white-opacity-1"></div><span>08.05.</span>
+              <div class="white-opacity-1"></div><p>08.05.</p>
             </div>
             <div class="tag">
-              <div class="white-opacity-2"></div><span>UEFA EUROPA LEAGUE</span>
+              <div class="white-opacity-2"></div><p>UEFA EUROPA LEAGUE</p>
             </div>
           </div>
           <div class="text-content">

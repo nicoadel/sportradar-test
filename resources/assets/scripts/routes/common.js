@@ -6,26 +6,39 @@ export default {
   },
   finalize() {
 
-    // swiperJS 
-    var mainSwiper = new Swiper('.swiper-container-main', {
-      // Optional parameters
-      loop: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      slideToClickedSlide: true,
-      // Navigation arrows
-      navigation: {
-        nextEl: '.main-slider-button-next',
-        prevEl: '.main-slider-button-prev',
-      },
-    })
-    var videoSwiper = new Swiper('.main-videos__swiper', {
-      slidesPerView: 'auto',
-      spaceBetween: 40,
-      slideToClickedSlide: true,
-    })
-    
-    mainSwiper.init();
-    videoSwiper.init();
+    //init swiper on load event, else it gets wrong slide width
+    window.addEventListener('load', () => {
+      var mainSwiper = new Swiper('.swiper-container-main', {
+        // Optional parameters
+        loop: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        slideToClickedSlide: true,
+        updateOnImagesReady: true,
+        preloadImages: true,
+        autoplay: {
+          delay: 4000,
+        },
+        // Navigation arrows
+        navigation: {
+          nextEl: '.main-slider-button-next',
+          prevEl: '.main-slider-button-prev',
+        },
+      })
+
+      var seasonSwiper = new Swiper('.season-slider__swiper', {
+        slidesPerView: 'auto',
+        grabCursor: true,
+        spaceBetween: 40,
+        initialSlide: 1,
+        // Navigation arrows
+        navigation: {
+          nextEl: '.season-button-next',
+          prevEl: '.season-button-prev',
+        },
+      })
+
+      mainSwiper.init();
+    }, false);
   },
 };
