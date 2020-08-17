@@ -7,6 +7,7 @@
       <div class="content">
         <main class="main">
           @include('modules.main-slider')
+          @include('modules.main-videos')
         </main>
       </div>
     </div>
