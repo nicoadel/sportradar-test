@@ -1,9 +1,10 @@
 <div class="main-slider">
-  <div class="swiper-container">
+  <div class="swiper-container-main">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img src="@asset('images/soccer1.jpg')">
+        <div class="opacity-gradient"></div>
         <div class="inner-content container">
           <div class="tag-box">
             <div class="date">
@@ -23,6 +24,7 @@
       </div>
       <div class="swiper-slide">
         <img src="@asset('images/soccer1.jpg')">
+        <div class="opacity-gradient"></div>
         <div class="inner-content container">
           <div class="tag-box">
             <div class="date">
@@ -42,6 +44,7 @@
       </div>
       <div class="swiper-slide">
         <img src="@asset('images/soccer1.jpg')">
+        <div class="opacity-gradient"></div>
         <div class="inner-content container">
           <div class="tag-box">
             <div class="date">
