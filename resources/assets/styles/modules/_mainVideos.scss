@@ -1,4 +1,6 @@
 .main-videos {
+  margin-top: -85px;
+
   .videobox {
     display: flex;
     flex-flow: column;
@@ -18,15 +20,14 @@
 
     .tagcontainer {
       display: flex;
+      height: 33px;
       margin-bottom: 20px;
 
       .locked {
         background-color: theme-color("red-1");
         width: 45px;
-        height: 30px;
-        padding-top: 5px;
-        padding-bottom: 10px;
         display: flex;
+        padding: 9px 0;
 
         img {
           width: 100%;
@@ -35,20 +36,44 @@
       }
 
       .date {
-        padding: 10px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding: 0 15px;
         background-color: theme-color("grey-1");
 
         p {
           margin: 0;
+          line-height: 11px;
+          font-weight: bold;
         }
       }
 
       .tag {
-        padding: 10px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding: 0 15px;
         background-color: theme-color("grey-2");
 
         p {
           margin: 0;
+          line-height: 11px;
+        }
+      }
+
+      .tickets {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding: 0 15px;
+        background-color: white;
+
+        p {
+          color: black;
+          margin: 0;
+          font-weight: bold;
+          line-height: 11px;
         }
       }
     }

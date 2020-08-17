@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="textcontainer">
-          <p>Erste Impressionen aus London</p>
+          <h4>Erste Impressionen aus London</h4>
         </div>
       </div>
       <div class="videobox swiper-slide">
@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="textcontainer">
-          <p>B04 - SGE: PK nach dem Spiel</p>
+          <h4>B04 - SGE: PK nach dem Spiel</h4>
         </div>
       </div>
       <div class="videobox swiper-slide">
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="textcontainer">
-          <p>JETZT TICKETS SICHERN!</p>
+          <h4>JETZT TICKETS SICHERN!</h4>
         </div>
       </div>
       <div class="videobox swiper-slide">
@@ -53,7 +53,7 @@
           </div>
         </div>
         <div class="textcontainer">
-          <p>2. Halbzeit: Bayer 04 Leverkusen - Eintracht Frankfurt</p>
+          <h4>2. Halbzeit: Bayer 04 Leverkusen - Eintracht Frankfurt</h4>
         </div>
       </div>
     </div>
