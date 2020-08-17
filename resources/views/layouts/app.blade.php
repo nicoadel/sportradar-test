@@ -8,6 +8,7 @@
         <main class="main">
           @include('modules.main-slider')
           @include('modules.main-videos')
+          @include('modules.season-slider')
         </main>
       </div>
     </div>

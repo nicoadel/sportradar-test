@@ -5,27 +5,27 @@ export default {
     // JavaScript to be fired on all pages
   },
   finalize() {
+
+    // swiperJS 
     var mainSwiper = new Swiper('.swiper-container-main', {
       // Optional parameters
       loop: true,
-      // Navigation arrows
       centeredSlides: true,
       slidesPerView: 'auto',
       slideToClickedSlide: true,
+      // Navigation arrows
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.main-slider-button-next',
+        prevEl: '.main-slider-button-prev',
       },
     })
-    var videoSwiper = new Swiper('.swiper-container-video', {
+    var videoSwiper = new Swiper('.main-videos__swiper', {
       slidesPerView: 'auto',
       spaceBetween: 40,
       slideToClickedSlide: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
     })
-    console.log('hi');
+    
+    mainSwiper.init();
+    videoSwiper.init();
   },
 };

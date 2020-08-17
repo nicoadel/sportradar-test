@@ -1,6 +1,5 @@
 <div class="main-slider">
   <div class="swiper-container-main">
-    <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img src="@asset('images/soccer1.jpg')">
@@ -63,16 +62,15 @@
         </div>
       </div>
     </div>
-    <div class="swiper-button-prev">
-      <div class="inner-content">
-        <div class="white-background"></div><img src="@asset('images/angle_left.png')">
+    <div class="swiper-button-prev custom main-slider-button-prev">
+      <div class="swiper-button__inner-content">
+        <div class="swiper-button__white-background"></div><img src="@asset('images/angle_left.png')">
       </div>
     </div>
-    <div class="swiper-button-next">
-      <div class="inner-content">
-        <div class="white-background"></div><img src="@asset('images/angle_right.png')">
+    <div class="swiper-button-next custom main-slider-button-next">
+      <div class="swiper-button__inner-content">
+        <div class="swiper-button__white-background"></div><img src="@asset('images/angle_right.png')">
       </div>
     </div>
   </div>
 </div>
-<!-- Slider main container -->

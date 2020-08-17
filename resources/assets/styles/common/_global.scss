@@ -32,4 +32,120 @@ html body {
   .container {
     max-width: 1520px;
   }
+
+  //custom global swiperJS Elements
+
+  //swiperJS prev and next Buttons
+  .swiper-button-prev.custom,
+  .swiper-button-next.custom {
+    display: flex;
+    width: 46px;
+    height: 93px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+    outline: none;
+
+    &:hover {
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.45);
+      transition: box-shadow 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+    }
+
+    &::after {
+      display: none;
+    }
+
+    .swiper-button__inner-content {
+      position: relative;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+
+      img {
+        position: absolute;
+        display: flex;
+        width: 100%;
+      }
+
+      .swiper-button__white-background {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        opacity: 0.6;
+        z-index: -1;
+      }
+    }
+  }
+
+  //swiperJS Videoslide with different options
+  .videobox-slide {
+    display: flex;
+    flex-flow: column;
+    width: auto;
+
+    .videobox-slide__image-container {
+      width: 400px;
+      height: 225px;
+      margin-bottom: 20px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .videobox-slide__tag-container {
+      display: flex;
+      height: 33px;
+      margin-bottom: 20px;
+
+      p {
+        margin: 0;
+        line-height: 11px;
+        font-weight: bold;
+      }
+
+      .textcontainer {
+        max-width: 350px;
+      }
+
+      .videobox-slide__tag-container__box {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding: 0 15px;
+
+        &.locked {
+          background-color: theme-color("red-1");
+          width: 45px;
+          padding: 9px 0;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+
+        &.date {
+          background-color: theme-color("grey-1");
+        }
+
+        &.tag {
+          background-color: theme-color("grey-2");
+        }
+
+        &.tickets {
+          background-color: white;
+
+          p {
+            color: black !important;
+          }
+        }
+      }
+    }
+  }
 }
