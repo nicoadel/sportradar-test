@@ -16,9 +16,9 @@
           </div>
           <div class="text-content">
             <h2>Starke Leistung der Adler</h2>
-            <h4>Nach dem 1:1 im Hinspiel gegen den FC Chelsea ist noch alles möglich. Die Highlights der spannenden
+            <p>Nach dem 1:1 im Hinspiel gegen den FC Chelsea ist noch alles möglich.</br>Die Highlights der spannenden
               Partie
-              hier im Video.</h4>
+              hier im Video.</p>
           </div>
         </div>
       </div>
@@ -36,9 +36,9 @@
           </div>
           <div class="text-content">
             <h2>Starke Leistung der Adler</h2>
-            <h4>Nach dem 1:1 im Hinspiel gegen den FC Chelsea ist noch alles möglich. Die Highlights der spannenden
+            <p>Nach dem 1:1 im Hinspiel gegen den FC Chelsea ist noch alles möglich.</br>Die Highlights der spannenden
               Partie
-              hier im Video.</h4>
+              hier im Video.</p>
           </div>
         </div>
       </div>
@@ -56,9 +56,9 @@
           </div>
           <div class="text-content">
             <h2>Starke Leistung der Adler</h2>
-            <h4>Nach dem 1:1 im Hinspiel gegen den FC Chelsea ist noch alles möglich. Die Highlights der spannenden
+            <p>Nach dem 1:1 im Hinspiel gegen den FC Chelsea ist noch alles möglich.</br>Die Highlights der spannenden
               Partie
-              hier im Video.</h4>
+              hier im Video.</p>
           </div>
         </div>
       </div>
