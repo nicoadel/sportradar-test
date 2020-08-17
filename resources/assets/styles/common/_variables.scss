@@ -2,7 +2,10 @@
 @import "~bootstrap/scss/functions";
 
 $theme-colors: (
-  primary: #525ddc
+  primary: #525ddc,
+  red-1: #e00a16,
+  grey-1: #333,
+  grey-2: #1a1a1a,
 );
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
