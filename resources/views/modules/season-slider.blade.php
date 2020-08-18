@@ -1,4 +1,4 @@
-<div class="season-slider container-fluid">
+<div class="season-slider">
   <div class="season-slider__title-navigation container">
     <div class="title-navigation__title">
       <h3>SAISON</h3>

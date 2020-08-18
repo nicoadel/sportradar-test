@@ -54,6 +54,10 @@
   }
 
   .season-slider__swiper {
+    .swiper-wrapper {
+      max-width: 1490px;
+    }
+
     .videobox-slide {
       position: relative;
 

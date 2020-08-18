@@ -21,7 +21,7 @@ $sage_error = function ($message, $subtitle = '', $title = '') {
 };
 
 
-
+//enqueuqe swiper cdn
 wp_enqueue_style( 'swiper-css', 'https://unpkg.com/swiper/swiper-bundle.min.css' );
 wp_enqueue_script( 'swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js' );
 

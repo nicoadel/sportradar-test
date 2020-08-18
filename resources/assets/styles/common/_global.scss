@@ -1,9 +1,14 @@
 html body {
   background: black;
+  overflow-x: hidden;
 
   p {
     color: white;
     font-size: $font-size-p;
+
+    @include media-breakpoint-down(md) {
+      font-size: $font-size-p-mobile;
+    }
   }
 
   h1,
@@ -15,18 +20,34 @@ html body {
 
   h1 {
     font-size: $font-size-h1;
+
+    @include media-breakpoint-down(md) {
+      font-size: $font-size-h1-mobile;
+    }
   }
 
   h2 {
     font-size: $font-size-h2;
+
+    @include media-breakpoint-down(md) {
+      font-size: $font-size-h2-mobile;
+    }
   }
 
   h3 {
     font-size: $font-size-h3;
+
+    @include media-breakpoint-down(md) {
+      font-size: $font-size-h3-mobile;
+    }
   }
 
   h4 {
     font-size: $font-size-h4;
+
+    @include media-breakpoint-down(md) {
+      font-size: $font-size-h4-mobile;
+    }
   }
 
   .container {
@@ -97,6 +118,10 @@ html body {
       }
     }
 
+    .textcontainer {
+      max-width: 350px;
+    }
+
     .videobox-slide__tag-container {
       display: flex;
       height: 33px;
@@ -106,10 +131,6 @@ html body {
         margin: 0;
         line-height: 11px;
         font-weight: bold;
-      }
-
-      .textcontainer {
-        max-width: 350px;
       }
 
       .videobox-slide__tag-container__box {
