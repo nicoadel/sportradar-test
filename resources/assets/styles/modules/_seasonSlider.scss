@@ -2,9 +2,18 @@
   margin-top: 145px;
   position: relative;
 
+  @include media-breakpoint-down(md) {
+    margin-top: 20px;
+  }
+
   .season-slider__title-navigation {
     display: flex;
     margin-bottom: 47px;
+
+    @include media-breakpoint-down(md) {
+      flex-flow: column;
+      margin-bottom: 30px;
+    }
 
     .title-navigation__title {
       display: flex;
@@ -20,6 +29,11 @@
       display: flex;
       margin-left: 73px;
 
+      @include media-breakpoint-down(md) {
+        flex-flow: column;
+        margin-left: 0;
+      }
+
       .title-navigation__navigation__tag {
         padding: 0 25px;
         display: flex;
@@ -28,6 +42,13 @@
         border-right: 1px solid theme-color("grey-3");
         margin-top: 10px;
         margin-bottom: 10px;
+
+        @include media-breakpoint-down(md) {
+          padding: unset;
+          border: unset;
+          margin: unset;
+          margin-top: 5px;
+        }
 
         &:nth-last-child(1) {
           border-right: 0;
@@ -56,10 +77,20 @@
   .season-slider__swiper {
     .swiper-wrapper {
       max-width: 1490px;
+
+      @include media-breakpoint-down(md) {
+        padding: 0;
+        margin: 0;
+      }
     }
 
     .videobox-slide {
       position: relative;
+
+      @include media-breakpoint-down(md) {
+        padding: 0 15px;
+        margin: 0 auto;
+      }
 
       .videobox-slide__hover-background {
         background-color: theme-color("red-1");
@@ -71,6 +102,13 @@
         opacity: 0;
         transition: opacity 0.3s cubic-bezier(0.33, 1, 0.68, 1);
         z-index: -1;
+
+        @include media-breakpoint-down(md) {
+          bottom: 30px;
+          top: -5px;
+          right: 6px;
+          left: 6px;
+        }
       }
 
       &:hover {
@@ -100,10 +138,18 @@
 
     .season-button-next {
       right: 0;
+
+      @include media-breakpoint-down(md) {
+        top: 58%;
+      }
     }
 
     .season-button-prev {
       left: 0;
+
+      @include media-breakpoint-down(md) {
+        top: 58%;
+      }
     }
   }
 }

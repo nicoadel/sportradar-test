@@ -13,7 +13,6 @@ export default {
         loop: true,
         centeredSlides: true,
         slidesPerView: 'auto',
-        slideToClickedSlide: true,
         updateOnImagesReady: true,
         preloadImages: true,
         autoplay: {
@@ -27,10 +26,20 @@ export default {
       })
 
       var seasonSwiper = new Swiper('.season-slider__swiper', {
-        slidesPerView: 'auto',
         grabCursor: true,
-        spaceBetween: 40,
         initialSlide: 1,
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          // when window width is >= 767px
+          767: {
+            slidesPerView: 'auto',
+            spaceBetween: 40,
+          },
+        },
         // Navigation arrows
         navigation: {
           nextEl: '.season-button-next',
