@@ -1,10 +1,9 @@
+html {
+  overflow-x: hidden;
+}
+
 html body {
   background: black;
-  overflow-x: hidden;
-
-  .main {
-    overflow-x: unset;
-  }
 
   p {
     color: white;
@@ -143,7 +142,7 @@ html body {
     .videobox-slide__tag-container {
       display: flex;
       height: 33px;
-      margin-bottom: 20px;
+      margin-bottom: 17px;
 
       @include media-breakpoint-down(md) {
         order: 2;
