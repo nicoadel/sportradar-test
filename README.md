@@ -1,14 +1,13 @@
-Still left to do:
-  - Navigation
-  - Mobile View
-  - Accessibility (alt tags in img's etc..)
 
-Still need:
-  - Assets
-  - Fonts
+Would do's:
+
+Fullscreen mobile navigation when opened
+Alt Tags in img's
+
+
 
 Techs Used:
-composer, yarn, node, scss, blade, php, swiperJS
+composer, yarn, node, scss, blade, php, swiperJS, hamburgers
 
 
 Small Guide to where important file's are stored 
