@@ -1,4 +1,8 @@
 .main-slider {
+  @include media-breakpoint-down(sm) {
+    padding-top: 60px;
+  }
+
   .swiper-container-main {
     width: 100%;
 
@@ -108,11 +112,19 @@
     .main-slider-button-next {
       right: 0;
       top: 350px;
+
+      @include media-breakpoint-down(md) {
+        top: 420px;
+      }
     }
 
     .main-slider-button-prev {
       left: 0;
       top: 350px;
+
+      @include media-breakpoint-down(md) {
+        top: 420px;
+      }
     }
   }
 }

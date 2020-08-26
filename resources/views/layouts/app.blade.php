@@ -1,6 +1,7 @@
 <!doctype html>
 <html {!! get_language_attributes() !!}>
   @include('partials.head')
+  @include('partials.header')
   <body @php body_class() @endphp>
     @php do_action('get_header') @endphp
     <div class="wrap" role="document">

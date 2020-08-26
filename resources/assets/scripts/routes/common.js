@@ -49,5 +49,11 @@ export default {
 
       mainSwiper.init();
     }, false);
+
+
+    document.getElementById('navbar-toggler').onclick = function () {
+      document.getElementById('navbar-toggler').classList.toggle('is-active');
+    };
+
   },
 };

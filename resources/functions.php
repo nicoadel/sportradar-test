@@ -25,6 +25,13 @@ $sage_error = function ($message, $subtitle = '', $title = '') {
 wp_enqueue_style( 'swiper-css', 'https://unpkg.com/swiper/swiper-bundle.min.css' );
 wp_enqueue_script( 'swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js' );
 
+//enqueue hamburgers css 
+wp_enqueue_style( 'hamburgers-css', 'https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css' );
+
+
+
+
+
 /**
  * Ensure compatible version of PHP is used
  */
