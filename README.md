@@ -3,7 +3,7 @@ Would do's:
 
 Fullscreen mobile navigation when opened
 Alt Tags in img's
-
+Swiper re-init on rescale
 
 
 Techs Used:

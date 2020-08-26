@@ -13,8 +13,6 @@ export default {
         loop: true,
         centeredSlides: true,
         slidesPerView: 'auto',
-        updateOnImagesReady: true,
-        preloadImages: true,
         autoplay: {
           delay: 4000,
         },
